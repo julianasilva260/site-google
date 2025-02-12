@@ -1,20 +1,27 @@
-img{
+*{   /*UNIVERSAL*/
+    margin: 0; /*MARGEM*/
+    padding: 0;  /*ESPAÇAMENTO INTERNO*/
+}
+img{   /*ESTILO TAG IMAGEM */
     height:92px ;  /*altura*/
 }
-a{
+a{  /*TAG LINK /ANCORA*/
     text-decoration: none; /*tirar decoração do texto*/
      color: #1f1f1f; /*cor do texto*/
      font-size: 13px; /*tamanho da fonte*/
-     font-family: sans-serif; /*tipo/familia*/
+     font-family: sans-serif; /*tipo/familia da fonte*/
 }
-.botao-login{
-    background-color: #1a73e8;
-    color: white;
-    padding: 13px 12px;
-    font-weight: 500;
-    border-radius: 40px;
+.botao-login{ /*CLASSE botao-login*/
+    background-color: #1a73e8; /*COR DO FUNDO*/
+    color: white; /*COR DO TEXTO*/
+    padding: 13px 12px; /*ESPAÇAMENTO INTERNO*/
+    font-weight: 500;  /*~PESO DA FONTE*/
+    border-radius: 40px; /*~RAIO DA BORDA(CURVATURA)*/
 }
-.icone-produtos{
+.icone-produtos{  /*CLASSE DE ICONE-PRODUTOS*/
     width:24px ; /*largura*/
-    fill: #444746;
+    fill: #444746; /*COR PREENCHIMENTO*/
+}
+footer{
+    background-color: #F2F2F2; /*COR DO FUNDO*/
 }
