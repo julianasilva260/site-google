@@ -25,3 +25,9 @@ a{  /*TAG LINK /ANCORA*/
 footer{
     background-color: #F2F2F2; /*COR DO FUNDO*/
 }
+.caixa-rodape{
+    padding: 15px 30px;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0; #/*borda inferior*/
+}
