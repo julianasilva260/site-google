@@ -27,7 +27,20 @@ footer{
 }
 .caixa-rodape{
     padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .caixa-rodape--borda{
-    border-bottom: 1px solid #dadce0; #/*borda inferior*/
+    border-bottom: 1px solid #dadce0; /*borda inferior*/
+}
+header{ /*CABEÇALHO*/
+    display: flex; 
+    align-items: center;/**/
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px 14px;
+}
+.caixa-links{
+    display: flex;
+    gap: 30px; /*espaçamento entre os itens da div caixa-links*/
 }
