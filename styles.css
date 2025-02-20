@@ -22,6 +22,36 @@ a{  /*TAG LINK /ANCORA*/
     width:24px ; /*largura*/
     fill: #444746; /*COR PREENCHIMENTO*/
 }
+.caixa-pesquisa{
+    display: flex;
+    width: 583px; /*LARGURA*/
+    padding: 10px 14px; /*ESPAÇAMENTO INTERNO*/
+    align-items: center; /*ALINHANDO OS ITENS AO CENTRO*/
+    gap: 13px; /*ESPAÇAMENTO ENTRE OS ELEMENTOS*/
+    border: 1px solid #dfe1e5; /*borda*/
+    border-radius: 100px; /*RAIO DE BORDA*/
+}
+.caixa-icones{
+    display: flex;
+    align-items: center; /*ALINHANDO NA VERTICAL*/
+    gap: 16px; /*ESPAÇAMENTO ENTRE OS ITENS*/
+}
+.input-pesquisa{
+    width: 100%; /*OCUPAR 1005 DA LARGURA DISPONIVEL */
+    border: none; /*BORDA NENHUMA*/
+    outline: none; /*SOMBREAMENTO QUANDO SELECIONADO NENHUM*/
+}
+.icone-lupa{
+    width: 20px; /*largura*/
+    fill: #9aa0a6; /*PREENCHIMENTO*/
+}
+.icone-teclado{
+    width: 20px; /*LARGURA*/
+    height: 14px; /*altura*/
+}
+.icone-colorido{
+    width: 24px; /*LARGURA*/
+}
 footer{
     background-color: #F2F2F2; /*COR DO FUNDO*/
 }
@@ -33,6 +63,7 @@ footer{
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0; /*borda inferior*/
 }
+/*CABEÇALHO*/
 header{ /*CABEÇALHO*/
     display: flex; 
     align-items: center;/**/
